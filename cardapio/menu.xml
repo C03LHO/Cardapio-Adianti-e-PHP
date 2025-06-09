@@ -1,0 +1,61 @@
+<menu>
+    <menuitem label='Cardápio'>
+        <icon>fa:cutlery fa-fw</icon>
+        <menu>
+            <menuitem label='Visualizar Cardápio'>
+                <icon>fa:eye fa-fw</icon>
+                <action>CardapioModerno</action>
+            </menuitem>
+            
+            <menuitem label='Gerenciar Produtos'>
+                <icon>fa:list fa-fw</icon>
+                <action>ProdutoList</action>
+            </menuitem>
+            
+            <menuitem label='Novo Produto'>
+                <icon>fa:plus fa-fw</icon>
+                <action>ProdutoForm</action>
+            </menuitem>
+            
+            <menuitem label='Gerenciar Categorias'>
+                <icon>fa:tags fa-fw</icon>
+                <action>CategoriaList</action>
+            </menuitem>
+            
+            <menuitem label='Nova Categoria'>
+                <icon>fa:plus-circle fa-fw</icon>
+                <action>CategoriaForm</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+    
+    <menuitem label='Relatórios'>
+        <icon>fa:bar-chart fa-fw</icon>
+        <menu>
+            <menuitem label='Produtos por Categoria'>
+                <icon>fa:pie-chart fa-fw</icon>
+                <action>CardapioList</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+    
+    <menuitem label='Sistema'>
+        <icon>fa:cog fa-fw</icon>
+        <menu>
+            <menuitem label='Início'>
+                <icon>fa:home fa-fw</icon>
+                <action>WelcomeView</action>
+            </menuitem>
+            
+            <menuitem label='Ver módulos'>
+                <icon>fa:cube fa-fw</icon>
+                <action>SystemModulesCheckView</action>
+            </menuitem>
+            
+            <menuitem label='Setup PHP'>
+                <icon>fa:code fa-fw</icon>
+                <action>SystemPHPInfoView</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+</menu>

@@ -1,0 +1,12 @@
+<menu>
+    <menuitem label='Cardápio Digital'>
+        <icon>fa:cutlery fa-fw</icon>
+        <action>CardapioModerno</action>
+    </menuitem>
+    <menuitem label="Início">
+        <icon>fas:life-ring fa-fw</icon>
+        <action>WelcomeView</action>
+        <title>Início</title>
+        <mobile>Y</mobile>
+    </menuitem>
+</menu>

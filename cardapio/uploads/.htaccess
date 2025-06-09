@@ -1,0 +1,17 @@
+# Permitir acesso às imagens
+Options +Indexes
+AllowOverride None
+Require all granted
+
+# Configurar tipos MIME para imagens
+AddType image/jpeg .jpg .jpeg
+AddType image/png .png
+AddType image/gif .gif
+
+# Cache de imagens por 30 dias
+<FilesMatch "\.(jpg|jpeg|png|gif)$">
+    ExpiresActive On
+    ExpiresDefault "access plus 30 days"
+    Header set Cache-Control "public, max-age=2592000"
+</FilesMatch>
+
